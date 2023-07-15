@@ -1,0 +1,43 @@
+{
+  "name": "nextjs-gpt4-chat",
+  "version": "1.0.0",
+  "description": "A one-page Next.js web application with tailwind, vanilla javascript and html. It provides a UI to make an input and send it to request a streaming response via chatcompletion GPT-4 API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/nextjs-gpt4-chat.git"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwind",
+    "gpt4",
+    "chat",
+    "vercel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/nextjs-gpt4-chat/issues"
+  },
+  "homepage": "https://github.com/yourusername/nextjs-gpt4-chat#readme",
+  "dependencies": {
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "2.2.16"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.3.4",
+    "postcss": "8.3.6"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
